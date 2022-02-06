@@ -32,4 +32,6 @@ Use the W3C Validator to properly validate your HTML and CSS project.
 
 ```
 
+## Solution Main Page
+
 ![](img/page.png)
