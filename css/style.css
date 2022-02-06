@@ -9,13 +9,13 @@
   --white: #ffffff;
 }
 
-/* main page style starts */
+/* mainpage style starts */
 
 .mainpage {
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
   background-color: var(--brown);
 }
 
@@ -57,13 +57,14 @@
   font-weight: 900;
 }
 
-/* main page styles  ends */
+/* mainpage styles  ends */
 
-/* main page2 styles  starts */
+/*  secondpage styles  starts */
 
 .secondpage {
   display: flex;
   flex-direction: column;
+  height: 90vh;
 }
 .secondpage-header h2 {
   display: flex;
@@ -76,25 +77,80 @@
 .secondpage-info {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .secondpage-image {
   margin-left: 200px;
-  margin-top: 100px;
+  /* margin-top: 70px; */
 }
 
 .secondpage-content h3 {
   font-weight: 900em;
   font-size: 35px;
-  margin-left: 200px;
-  margin-top: 220px;
+  margin-left: 400px;
+  /* margin-top: 220px; */
 }
 .secondpage-content p {
-  margin-left: 200px;
+  margin-left: 400px;
   font-size: 23px;
   line-height: 1.4;
 }
-.secondpage-info {
+/* .secondpage-info {
   padding-bottom: 120px;
+} */
+/*  secondpage styles  ends */
+
+/*  thirdpage styles  starts */
+.thirdpage {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--brown);
+  align-items: center;
+  height: 90vh;
 }
-/* main page2 styles  ends */
+
+.third-page-img {
+  margin-left: 400px;
+}
+
+.third-page-info h3 {
+  font-weight: 900em;
+  font-size: 35px;
+  margin-left: 200px;
+  color: var(--white);
+}
+
+.third-page-info p {
+  margin-left: 200px;
+  color: var(--white);
+  font-size: 23px;
+  line-height: 1.4;
+}
+/*  thirdpage styles  ends */
+
+/*  fourthpage styles  starts */
+
+.fourthpage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 90vh;
+}
+
+.fourthpage-info h3 {
+  margin-left: 550px;
+  font-weight: 900em;
+  font-size: 35px;
+}
+
+.fourthpage-info p {
+  margin-left: 550px;
+  font-size: 23px;
+  line-height: 1.4;
+}
+
+.fourthpage-img {
+  margin-left: 200px;
+}
+/*  fourthpage styles  ends */
