@@ -154,3 +154,50 @@
   margin-left: 200px;
 }
 /*  fourthpage styles  ends */
+
+/*  footer styles  starts */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  height: 9vh;
+  background-color: var(--brown);
+}
+.footer p {
+  font-size: 17px;
+}
+
+/*  footer styles  ends */
+
+/*  responsive styles  starts */
+
+@media (max-width: 800px) {
+  .mainpage {
+    flex-direction: column;
+  }
+
+  .main-img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .secondpage-info {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 800px) {
+  .thirdpage {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 800px) {
+  .fourthpage {
+    flex-direction: column;
+  }
+}
