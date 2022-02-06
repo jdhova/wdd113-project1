@@ -1,9 +1,21 @@
-.mainpage {
-  background-color: #312b29;
-  color: #000;
+:root {
+  --brown: #312b29;
+  --red: #ef3c46;
+  --white: #ffffff;
 }
+
+/* main page style starts */
+
+.mainpage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--brown);
+}
+
 .info1 h1 {
-  color: white;
+  color: var(--white);
   font-weight: 900em;
   font-size: 90px;
 }
@@ -24,31 +36,24 @@
   width: 180px;
   border-radius: 10px;
   font-size: 20px;
-  color: white;
+  color: var(--white);
   font-weight: 900;
-  background-color: #ef3c46;
+  background-color: var(--red);
 }
 .button2 {
   height: 68px;
   width: 250px;
   margin-left: 20px;
   border-radius: 10px;
-  border-color: #ffffff;
-  background-color: #312b29;
+  border-color: var(--white);
+  background-color: var(--brown);
   font-size: 20px;
-  color: white;
+  color: var(--white);
   font-weight: 900;
 }
-/* h1 {
-  font-weight: bold;
-  font-weight: 9000em;
-} */
 
-/* #ef3c46 */
+/* main page styles  ends */
 
-.mainpage {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 100vh;
-}
+/* main page2 styles  starts */
+
+/* main page2 styles  ends */
