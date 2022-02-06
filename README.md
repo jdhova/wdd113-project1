@@ -31,3 +31,5 @@ HTML and CSS must be valid
 Use the W3C Validator to properly validate your HTML and CSS project.
 
 ```
+
+![](img/page.png)
