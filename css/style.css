@@ -1,3 +1,8 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
 :root {
   --brown: #312b29;
   --red: #ef3c46;
@@ -35,7 +40,7 @@
   height: 68px;
   width: 180px;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 25px;
   color: var(--white);
   font-weight: 900;
   background-color: var(--red);
@@ -47,7 +52,7 @@
   border-radius: 10px;
   border-color: var(--white);
   background-color: var(--brown);
-  font-size: 20px;
+  font-size: 25px;
   color: var(--white);
   font-weight: 900;
 }
@@ -56,4 +61,40 @@
 
 /* main page2 styles  starts */
 
+.secondpage {
+  display: flex;
+  flex-direction: column;
+}
+.secondpage-header h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900em;
+  font-size: 58px;
+}
+
+.secondpage-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.secondpage-image {
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.secondpage-content h3 {
+  font-weight: 900em;
+  font-size: 35px;
+  margin-left: 200px;
+  margin-top: 220px;
+}
+.secondpage-content p {
+  margin-left: 200px;
+  font-size: 23px;
+  line-height: 1.4;
+}
+.secondpage-info {
+  padding-bottom: 120px;
+}
 /* main page2 styles  ends */
