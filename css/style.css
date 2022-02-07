@@ -7,6 +7,7 @@
   --brown: #312b29;
   --red: #ef3c46;
   --white: #ffffff;
+  --font: Arial, Helvetica, sans-serif;
 }
 
 /* mainpage style starts */
@@ -22,7 +23,8 @@
 .info1 h1 {
   color: var(--white);
   font-weight: 900em;
-  font-size: 90px;
+  font-size: 80px;
+  font-family: var(--font);
 }
 .main-img {
   margin-left: 200px;
@@ -43,6 +45,7 @@
   font-size: 25px;
   color: var(--white);
   font-weight: 900;
+  font-family: var(--font);
   background-color: var(--red);
 }
 .button2 {
@@ -55,6 +58,7 @@
   font-size: 25px;
   color: var(--white);
   font-weight: 900;
+  font-family: var(--font);
 }
 
 /* mainpage styles  ends */
@@ -71,7 +75,8 @@
   align-items: center;
   justify-content: center;
   font-weight: 900em;
-  font-size: 58px;
+  font-size: 64px;
+  font-family: var(--font);
 }
 
 .secondpage-info {
@@ -87,14 +92,16 @@
 
 .secondpage-content h3 {
   font-weight: 900em;
-  font-size: 35px;
+  font-size: 40px;
   margin-left: 400px;
+  font-family: var(--font);
   /* margin-top: 220px; */
 }
 .secondpage-content p {
   margin-left: 400px;
   font-size: 23px;
   line-height: 1.4;
+  font-family: var(--font);
 }
 /* .secondpage-info {
   padding-bottom: 120px;
@@ -116,9 +123,10 @@
 
 .third-page-info h3 {
   font-weight: 900em;
-  font-size: 35px;
+  font-size: 40px;
   margin-left: 200px;
   color: var(--white);
+  font-family: var(--font);
 }
 
 .third-page-info p {
@@ -126,6 +134,7 @@
   color: var(--white);
   font-size: 23px;
   line-height: 1.4;
+  font-family: var(--font);
 }
 /*  thirdpage styles  ends */
 
@@ -141,13 +150,15 @@
 .fourthpage-info h3 {
   margin-left: 550px;
   font-weight: 900em;
-  font-size: 35px;
+  font-size: 40px;
+  font-family: var(--font);
 }
 
 .fourthpage-info p {
   margin-left: 550px;
-  font-size: 23px;
+  font-size: 24px;
   line-height: 1.4;
+  font-family: var(--font);
 }
 
 .fourthpage-img {
@@ -165,7 +176,8 @@
   background-color: var(--brown);
 }
 .footer p {
-  font-size: 17px;
+  font-size: 20px;
+  font-family: var(--font);
 }
 
 /*  footer styles  ends */
