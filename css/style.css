@@ -43,11 +43,16 @@
   width: 180px;
   border-radius: 10px;
   font-size: 25px;
-  color: var(--white);
+  /* color: var(--white); */
   font-weight: 900;
   font-family: var(--font);
   background-color: var(--red);
 }
+.button1 a {
+  color: var(--white);
+  text-decoration: none;
+}
+
 .button2 {
   height: 68px;
   width: 250px;
@@ -56,9 +61,18 @@
   border-color: var(--white);
   background-color: var(--brown);
   font-size: 25px;
-  color: var(--white);
+  /* color: var(--white); */
   font-weight: 900;
   font-family: var(--font);
+}
+
+.button2 a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 28px;
 }
 
 /* mainpage styles  ends */
