@@ -1,7 +1,8 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
-} */
+  box-sizing: border-box;
+}
 
 :root {
   --brown: #312b29;
@@ -15,6 +16,7 @@
 .mainpage {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
   height: 90vh;
   background-color: var(--brown);
@@ -26,25 +28,15 @@
   font-size: 80px;
   font-family: var(--font);
 }
-.main-img {
-  margin-left: 200px;
-}
-
-.info1 {
-  padding-left: 200px;
-  padding-right: 70px;
-}
 
 .info-buttons {
-  padding-left: 200px;
+  padding-top: 50px;
 }
 .button1 {
   height: 68px;
   width: 180px;
   border-radius: 10px;
-  font-size: 25px;
-  /* color: var(--white); */
-  font-weight: 900;
+  font-size: 32px;
   font-family: var(--font);
   background-color: var(--red);
 }
@@ -60,8 +52,7 @@
   border-radius: 10px;
   border-color: var(--white);
   background-color: var(--brown);
-  font-size: 25px;
-  /* color: var(--white); */
+  font-size: 32px;
   font-weight: 900;
   font-family: var(--font);
 }
@@ -72,6 +63,7 @@
 }
 
 a:hover {
+  cursor: pointer;
   font-size: 28px;
 }
 
@@ -82,73 +74,68 @@ a:hover {
 .secondpage {
   display: flex;
   flex-direction: column;
+  /* height: 200px; */
   height: 90vh;
 }
 .secondpage-header h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 900em;
   font-size: 64px;
   font-family: var(--font);
+  padding-top: 50px;
 }
 
 .secondpage-info {
+  margin-top: 70px;
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
-}
-
-.secondpage-image {
-  margin-left: 200px;
-  /* margin-top: 70px; */
 }
 
 .secondpage-content h3 {
   font-weight: 900em;
   font-size: 40px;
-  margin-left: 400px;
+
   font-family: var(--font);
-  /* margin-top: 220px; */
+  padding-top: 50px;
 }
 .secondpage-content p {
-  margin-left: 400px;
-  font-size: 23px;
+  font-size: 24px;
   line-height: 1.4;
   font-family: var(--font);
+  padding-top: 32px;
+  padding-bottom: 50px;
 }
-/* .secondpage-info {
-  padding-bottom: 120px;
-} */
+
 /*  secondpage styles  ends */
 
 /*  thirdpage styles  starts */
 .thirdpage {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
   background-color: var(--brown);
   align-items: center;
   height: 90vh;
 }
 
-.third-page-img {
-  margin-left: 400px;
-}
-
 .third-page-info h3 {
-  font-weight: 900em;
   font-size: 40px;
-  margin-left: 200px;
+
   color: var(--white);
   font-family: var(--font);
+  padding-top: 50px;
 }
 
 .third-page-info p {
-  margin-left: 200px;
   color: var(--white);
-  font-size: 23px;
+  font-size: 20px;
   line-height: 1.4;
   font-family: var(--font);
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 /*  thirdpage styles  ends */
 
@@ -157,27 +144,26 @@ a:hover {
 .fourthpage {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
   height: 90vh;
 }
 
 .fourthpage-info h3 {
-  margin-left: 550px;
   font-weight: 900em;
   font-size: 40px;
   font-family: var(--font);
+  padding-top: 50px;
 }
 
 .fourthpage-info p {
-  margin-left: 550px;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.4;
   font-family: var(--font);
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.fourthpage-img {
-  margin-left: 200px;
-}
 /*  fourthpage styles  ends */
 
 /*  footer styles  starts */
