@@ -32,6 +32,7 @@
 .info-buttons {
   padding-top: 50px;
 }
+
 .button1 {
   height: 68px;
   width: 180px;
@@ -39,10 +40,9 @@
   font-size: 32px;
   font-family: var(--font);
   background-color: var(--red);
-}
-.button1 a {
   color: var(--white);
   text-decoration: none;
+  padding: 18px;
 }
 
 .button2 {
@@ -50,11 +50,15 @@
   width: 250px;
   margin-left: 20px;
   border-radius: 10px;
-  border-color: var(--white);
+  border: 2px solid var(--white);
+  color: var(--white);
+  text-decoration: none;
+  padding: 18px;
   background-color: var(--brown);
   font-size: 32px;
   font-weight: 900;
   font-family: var(--font);
+  padding: 18px;
 }
 
 .button2 a {
