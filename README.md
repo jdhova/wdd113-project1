@@ -1,6 +1,6 @@
 # WDD 113 Project 1:
 
-## Status: Under Construction
+## Status: Complete
 
 ### Create a single page website using HTML and CSS
 
